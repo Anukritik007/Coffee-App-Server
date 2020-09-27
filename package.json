@@ -1,0 +1,24 @@
+{
+  "name": "my-coffee-app-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anukritik007/Coffee-App-Server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anukritik007/Coffee-App-Server/issues"
+  },
+  "homepage": "https://github.com/Anukritik007/Coffee-App-Server#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express-nedb-rest": "^1.2.6"
+  }
+}
