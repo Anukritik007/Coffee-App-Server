@@ -6,12 +6,12 @@ const cors = require('cors');
 const app = express();
 
 const dataStore = new nedb({
-    filename: "myCoffeeApp.db",
+    filename: "myArtWorksApp.db",
     autoload : true
 });
 
 const restAPI = rest();
-restAPI.addDatastore('coffees',dataStore);
+restAPI.addDatastore('art',dataStore);
 
 app.use(cors());
 app.use('/',restAPI);

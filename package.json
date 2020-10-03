@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"node index"
+    "start": "node index"
   },
   "repository": {
     "type": "git",
@@ -18,7 +18,15 @@
   },
   "homepage": "https://github.com/Anukritik007/Coffee-App-Server#readme",
   "dependencies": {
+    "@babel/runtime": "^7.11.2",
+    "@hapi/hapi": "^20.0.1",
     "cors": "^2.8.5",
     "express-nedb-rest": "^1.2.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/node": "^7.10.5",
+    "@babel/plugin-transform-runtime": "^7.11.5",
+    "@babel/preset-env": "^7.11.5"
   }
 }
