@@ -1,4 +1,5 @@
 export const mockData = [{
+    id:"11",
     name:"Paintng 1",
     creator:"Anik",
     description:"desc",
@@ -9,6 +10,7 @@ export const mockData = [{
     comments:"Commented"
 },
 {
+    id:"12",
     name:"Paintng 1",
     creator:"Anik",
     description:"desc",
